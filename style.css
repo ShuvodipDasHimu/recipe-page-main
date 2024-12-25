@@ -1,0 +1,162 @@
+@import url("https://fonts.google.com/specimen/Outfit");
+@import url("https://fonts.google.com/specimen/Young+Serif");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F3E5D8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  width:600px;
+  flex-direction: column;
+  border-radius: 20px;
+  margin: 40px;
+}
+
+.img-container img {
+  margin-top: 20px;
+  width: 550px;
+  border-radius: 10px;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  margin: 23px;
+  gap: 10px;
+}
+
+.title-section p {
+  font-family: "Outfit",sans-serif;
+  font-size:.80rem;
+  font-weight: 500;
+}
+
+.pink-section {
+  background-color: #FFF7FC;
+  width: 550px;
+  padding: 35px 50px;
+  border-radius: 12px;
+}
+
+.pink-section h2 {
+  padding-bottom: 10px;
+  color: hsl(332, 51%, 32%);
+}
+
+.pink-section ul {
+  padding-left: 30px;
+}
+.pink-section ul li {
+  margin-top: 10px;
+
+}
+
+.list-section-1 {
+  width: 550px;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.list-section-1 h2 {
+  margin-bottom: 20px;
+  color: hsl(14, 45%, 36%);
+}
+
+.list-section-1 ul li {
+  margin: 10px;
+  margin-left: 24px;
+}
+
+.hr1 {
+  width: 560px;
+  color: gray;
+  opacity: 0.3;
+}
+
+.list-section-2 {
+  width: 550px;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.list-section-2 h2 {
+  margin-bottom: 20px;
+  color: hsl(14, 45%, 36%);
+}
+
+.list-section-2 ol li {
+  margin: 10px;
+  margin-left: 22px;
+}
+
+li {
+  padding-left: 10px;
+  line-height: 1.5;
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.table-section {
+  width: 550px;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.table-section h2 {
+  margin-bottom: 20px;
+  color: hsl(14, 45%, 36%);
+}
+
+.table-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-section th,
+.table-section td {
+  text-align: left;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: hsl(14, 25%, 35%);
+}
+
+.table-section th {
+  font-weight: bold;
+  border-bottom: 2px solid hsl(14, 25%, 85%);
+}
+
+.table-section td {
+  border-bottom: 1px solid hsl(14, 25%, 85%);
+}
+
+.table-section td:first-child {
+  font-weight: bold; 
+}
+
+.table-section p {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: hsl(14, 25%, 45%);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
